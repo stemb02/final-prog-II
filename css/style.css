@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+}
+
+.login-todo {
+    background-image: url('../imagenes/login3.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    background-color: white;
+    border: 1px double white;
+    box-shadow: 5px 5px 7px 7px rgb(0 0 0 / 20%);
+    border-radius: 30px;
+    width: 28%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    padding: 2% 2%;
+}
+
+.login-img{
+    display: flex;
+    justify-content: center;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login form input {
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+}
+
+.box-visible {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-visible input[type="checkbox"] {
+    margin-left: 15px;
+}
+
+.box-visible label {
+    white-space: nowrap;
+    margin-right: 55%;
+}
+
+.registro {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+.login button {
+    width: 30%;
+    margin: 10px auto 0;
+    border-radius: 15px;
+    background-color: rgba(4, 87, 240, 0.637);
+}
+
+.login button:hover {
+    cursor: pointer;
+    opacity: .75;
+}
+
+.menu li {
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+
+.pagina-principal {
+    background-image: url('../imagenes/veterianarioConOvejero.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-secundaria {
+    background-image: url('../imagenes/veterinario2.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente blanco para el contenido */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.pagination .page-link {
+    color: black
+}
+
+.pagination .page-item.active .page-link {
+    background-color: gray; 
+    border-color: black; /* Cambia el color del borde del botón activo */
+    color: #fff; /* Cambia el color de texto del botón activo */
+}
+
+
+.nosotros {
+    background-image: url('../imagenes/nosotros.jpg');
+    background-size: cover; /* Cubre todo el espacio disponible */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+
+.contacto-titulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+
+.contenido-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contacto {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.contacto > div, .contacto > aside {
+    padding: 20px;
+}
+
+.datos-contacto {
+    text-align:center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.datos-contacto input {
+    border-radius: 10px;
+}
+
+.datos-contacto button {
+    margin-top: 20px;
+    width: 60px;
+    border-radius: 10px;
+    border: black;
+    background-color: rgba(0, 89, 255, 0.568);
+    margin-left: 286px;
+}
+
+.datos-contacto li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+
+/*Turnos*/
+.CRUD {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.seccionturnos h2 {
+    text-align: center;
+}
+
+.seccionturnos {
+    display:flex;
+    justify-content: space-around;
+}
+
+.formturno {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.formturno label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formturno input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.botonturno {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botonturno:hover {
+    background-color: #0056b3;
+}
+
+.ListaCRUD {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.ListaCRUD h2 {
+    margin-bottom: 10px;
+}
+
+
+
+/* Usuarios */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+  /* menu del administrador */
+.menuadmintodo {
+    background-color:#3F72AF; 
+}
+
+.botonusuario {
+    padding: 10px 20px;
+    background-color: #00ADB5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menuadmin {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:#DBE2EF; 
+}
+
+.menuadminaccesos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 50px;
+}
+
+.menuadminaccesos a {
+    display: inline-block;
+    width: 200px; 
+    height: 200px; 
+    margin: 10px;
+    background-color: #f0f0f0; 
+    border-radius: 10px;
+    text-align: center;
+    line-height: 150px; 
+    font-size: 20px;
+    text-decoration: none; 
+    color: #333; 
+}
+
+/*Usuarios*/
+

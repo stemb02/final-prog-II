@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inicio de sesión</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <main class="login-todo">
+        <div class="login">
+            <div class="login-img">
+                <img src="imagenes/doclogin.png" alt="imagen login" width="200px">
+            </div>
+            <form id="loginform">
+                <label for="mail">Mail</label>
+                <input type="email" id="mail" placeholder="Mail" required autofocus>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Contraseña" required><br>
+                <div class="box-visible">
+                    <input type="checkbox" id="visible">
+                    <label for="visible">Mostrar Contraseña</label>
+                </div>
+                <a class="registro" href="registro.html">Registrarse</a>
+                <button type="submit" id="submit">Iniciar Sesión</button>
+                
+            </form>
+        </div> 
+    </main>
+
+    <script src="javascript/login.js" ></script>
+</body>
+</html>

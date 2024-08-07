@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Usuarios</title>
+    <link href="css/usuarios.css" rel="stylesheet"/>
+</head>
+<body>
+    <button class="botonusuario" onclick="window.location.href='menuadmin.html'">Atras</button>
+    <div class="container">
+        <h2>CRUD de Usuarios</h2>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Email</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se mostrarán los usuarios -->
+            </tbody>
+        </table>
+        <button onclick="openAddModal()">Agregar Usuario</button>
+    </div>
+
+    <div id="addEditModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeAddEditModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <form id="addEditForm">
+                <label for="addEditUsername">Usuario:</label>
+                <input type="text" id="addEditUsername" required><br>
+                <label for="addEditEmail">Email:</label>
+                <input type="email" id="addEditEmail" required><br>
+                <label for="addEditPassword">Contraseña:</label> 
+                <input type="password" id="addEditPassword" required><br>   
+                <button type="submit">Guardar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="javascript/usuarios.js"></script>
+</body>
+</html>

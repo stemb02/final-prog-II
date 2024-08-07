@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header class="menu"> 
+        <div class="container-fluid">            
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <a class="navbar-brand" href="index.html">
+                    <img class="rounded-pill" width="50px" height="auto" src="imagenes/imagenNav.jpg" class="img-thumbnail" title="logo pagina" alt="logo pagina">
+                    <span>
+                        Veterinaria PyG
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex mx-auto flex-column flex-lg-row align-items-center barra-navegacion">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">San Luis 231</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="turnos.html">Turnos</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="contacto-titulo">
+            <h2>Contacto</h2>
+        </div>
+        <div  class="contenido-contacto">
+            <div class="contacto">
+                <div class="datos-contacto">
+                <label for="username">Usuario</label>
+                <input type="text" id="username" placeholder="Nombre de Usuario" required>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Contraseña" required><br>
+                <label>Mensaje</label>
+                <input type="text" id="text">
+                <button type="submit" id="submit">Enviar</button>
+                <div class="redes">
+                    <a href="#" class="text-light"><img src="imagenes/logoWhatsapp.png" width="28%"></a>
+                    <a href="#" class="text-light"><img src="imagenes/logoInstagram.png" width="20%"></a>
+                    <a href="#" class="text-light"><img src="imagenes/logoGmail.png" width="25%"></a>   
+                </div>
+                </div>
+                <aside>
+                    <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386.3455970382914!2d-122.08407801276364!3d37.4220014195912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580d8f7c987e7%3A0x4f6ef0ef343e4059!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1575547686434!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border:0;"
+                allowfullscreen=""
+                    ></iframe>
+                </aside>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer class="bg-body-tertiary text-black py-4 text-center">
+        <section class="container">
+            <article class="row">
+            <aside class="text-center col-sm-12 col-md-4">
+                <a class="navbar-brand" href="index.html">
+                <img class="rounded-pill" width="50px" height="auto" src="imagenes/imagenNav.jpg" class="img-thumbnail" title="logo pagina" alt="logo pagina">
+                </a>
+            </aside>
+            <aside class="col-sm-12 col-md-4">
+                <h5>Horarios de atención:</h5>
+                <p>Lunes a viernes 09hs-13hs y 17hs-21hs <br> Sábados, Domingos y Feriados 09hs-14hs</p>
+              </ul>
+            </aside>
+            <aside class="col-sm-12 col-md-4">
+                <h5>Siguenos en nuestras redes:</h5>
+                <a href="#" class="text-light"><img class="rounded-pill" src="imagenes/logoWhatsapp.png" width="10%"></a>
+                <a href="#" class="text-light"><img class="rounded-pill" src="imagenes/logoInstagram.png" width="10%"></a>
+                <a href="#" class="text-light"><img class="rounded-pill" src="imagenes/logoGmail.png" width="10%"></a>
+            </aside>
+            </article>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
