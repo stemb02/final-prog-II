@@ -3,7 +3,7 @@ document.getElementById("loginform").addEventListener("submit", function(e) {
     const mail = document.getElementById("mail").value;
     const password = document.getElementById("password").value;
 
-    if(mail === "admin@gmail.com" && password === "1234") {
+    if(mail === "admin@gmail.com" && password === "123") {
         alert("Bienvenido");
         window.location.href = "menuadmin.html";
     }
